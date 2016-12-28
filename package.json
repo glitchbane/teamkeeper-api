@@ -1,0 +1,29 @@
+{
+  "name": "mtm-api",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/glitchbane/mtm-api"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.6.7",
+    "mongoose-unique-validator": "^1.0.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.0.2"
+  }
+}
