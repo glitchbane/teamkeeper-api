@@ -41,8 +41,8 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.use('/api/team', projectRoutes);
-app.use('/api/organization', studioRoutes);
+app.use('/api/team', teamRoutes);
+app.use('/api/organization', organizationRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api', appRoutes);
 

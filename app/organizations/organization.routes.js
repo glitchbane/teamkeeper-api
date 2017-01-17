@@ -1,8 +1,8 @@
 var express = require('express');
 var organizationRouter = express.Router();
 
-var OrganizationHandler = require('/organization.handler');
-var TeamHandler = require('./team.handler');
+var OrganizationHandler = require('./organization.handler');
+var TeamHandler = require('../teams/team.handler');
 
 
 // these routes are prepended with api/organization/

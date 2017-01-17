@@ -1,7 +1,7 @@
 var express = require('express');
 var teamRouter = express.Router();
 
-var TeamHandler = require('/team.handler');
+var TeamHandler = require('./team.handler');
 
 // these routes are prepended with api/team/
 
